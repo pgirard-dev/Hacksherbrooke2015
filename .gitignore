@@ -1,0 +1,9 @@
+controller/medooConnection.php
+model/medooConnection.php
+/Database_Words
+/icons
+*.min.js
+/model/mySQL_connection.php
+/database_backup
+/Workspace_Java
+*.min.php

@@ -1,0 +1,62 @@
+
+body {
+    font-family: abel, arial;
+    background-color: rgb(239, 81, 65);
+}
+
+textarea:focus, input:focus{
+    outline: 0;
+}
+
+#circle {
+    display: table;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 290px;
+    margin-left: -145px;
+    height: 290px;
+    margin-top: -145px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#outer_circle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -160px;
+    margin-top: -160px;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    border: solid 4px black;
+}
+
+#gimme {
+    margin: 0;
+    width: 221px;
+    height: 113px;
+}
+
+#formContainer {
+    padding-bottom: 8px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#query {
+    margin-top: -7px;
+    height: 45px;
+    width: 182px;
+    font-size: 24px;
+    padding-left: 7px;
+    border: solid 5px black;
+    border-radius: 3px;
+    font-family: abel, arial;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+}
